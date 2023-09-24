@@ -16,7 +16,7 @@ jobs:
       shell: bash
       run: |
         git config --global user.name 'GitHub Actions'
-        git config --global user.email 'xaymar@users.noreply.github.com'
+        git config --global user.email 'JDDoesDev@users.noreply.github.com'
         git config pull.ff only
         git config pull.rebase true
     - name: "Remotes"
